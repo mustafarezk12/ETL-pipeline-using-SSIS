@@ -1,3 +1,10 @@
+## 🗺️ Database Schema Overview
+
+Below is the Entity Relationship Diagram (ERD) for the `University` database used in this project:
+
+![University DB Diagram](./screenshots/university_db_diagram.png)
+
+---
 # 📦 SSIS ETL  Project – University Database 
 
 This project demonstrates end-to-end **ETL solutions** using **SQL Server Integration Services (SSIS)**, based on a lab assignment using data from a `University` database. Each task showcases various SSIS components including **data flow**, **file output**, **error handling**, and **data transformation**.
