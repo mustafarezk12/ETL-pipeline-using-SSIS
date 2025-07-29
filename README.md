@@ -25,7 +25,8 @@ This project demonstrates end-to-end **ETL solutions** using **SQL Server Integr
 1. Truncate the `Department` table in `Test` DB before transfer.
 2. Use Import/Export Wizard to copy data from source to destination.
 
-📸 *Insert Screenshot: [Task1_SSIS_Wizard.png]*
+![Alt text](./Screenshots/task1/task1.jpg)
+
 
 ---
 
