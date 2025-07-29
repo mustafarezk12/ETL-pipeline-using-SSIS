@@ -2,7 +2,7 @@
 
 Below is the Entity Relationship Diagram (ERD) for the `University` database used in this project:
 
-![University DB Diagram](./screenshots/university_db_diagram.png)
+![University DB Diagram](./Screenshots/Database_Diagram/university_db_diagram.png)
 
 ---
 # 📦 SSIS ETL  Project – University Database 
