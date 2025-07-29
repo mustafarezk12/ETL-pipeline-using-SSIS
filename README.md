@@ -25,7 +25,7 @@ This project demonstrates end-to-end **ETL solutions** using **SQL Server Integr
 1. Truncate the `Department` table in `Test` DB before transfer.
 2. Use Import/Export Wizard to copy data from source to destination.
 
-![Alt text](./Screenshots/task1/task1.jpg)
+![Alt text](./Screenshots/task1/Task1.png)
 
 
 ---
@@ -40,7 +40,7 @@ This project demonstrates end-to-end **ETL solutions** using **SQL Server Integr
   - Delimited file: `Student.txt`
   - Column headers as first row
 
-📸 *Insert Screenshot: [Task2_StudentFile_Export.png]*
+![Alt text](./Screenshots/task2/task2.png)
 
 ---
 
@@ -54,9 +54,8 @@ This project demonstrates end-to-end **ETL solutions** using **SQL Server Integr
 3. Perform **full backup** of `Test` DB.
 4. On any error, show message: **"error occurred"**
 
-📸 *Insert Screenshot: [Task3_DerivedColumn_Fullname.png]*  
-📸 *Insert Screenshot: [Task3_Backup_ErrorHandling.png]*
 
+![Alt text](./Screenshots/task3/Task3_Backup_ErrorHandling.png)
 ---
 
 ### ✅ Task 4: Course Data File Split
@@ -73,8 +72,8 @@ This project demonstrates end-to-end **ETL solutions** using **SQL Server Integr
    - `File3.txt`: Courses > 30 hours  
    (all files should have column headers)
 
-📸 *Insert Screenshot: [Task4_CharacterMap_Sort_Split.png]*
 
+![Alt text](./Screenshots/task4/Task4_CharacterMap_Sort_Split.png)
 ---
 
 ### ✅ Task 5: Merge Course Files
@@ -84,10 +83,16 @@ This project demonstrates end-to-end **ETL solutions** using **SQL Server Integr
 #### Steps:
 1. Use **Sort Component**: Sort both by `Crs_name`.
 2. Use **Merge** or **Union All** to combine.
-3. Output result to a new file (e.g., `MergedCourses.txt`)
+3. Output result to a new file ( `MergedCourses.txt`, `UnionCourses.txt`)
 
-📸 *Insert Screenshot: [Task5_Merge_Union.png]*
 
+
+
+
+![Alt text](./Screenshots/task5/Task5_Merg.png)
+
+
+![Alt text](./Screenshots/task5/Task5_Union.png)
 ---
 
 ## 📌 Summary
